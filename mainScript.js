@@ -173,6 +173,7 @@ function popularity(choice) {
     if (choice == "Stay in the palace") {
         var PARAM1 = Math.floor((Math.random() * 10) + 1);
         if (PARAM1 <= 3) {
+            popularity.value -= 10;
             popularityNUM -= 10;
 
         }
